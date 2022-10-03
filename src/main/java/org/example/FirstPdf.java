@@ -168,19 +168,4 @@ public class FirstPdf {
     }
   }
 
-  static void deadCode() {
-    System.out.println("Dead");
-    System.out.println("Dead");
-    System.out.println("Dead");
-    System.out.println("Dead");
-    if (false) {
-      System.out.println("Dead");
-    }
-  }
-  static void deadCode2() {
-    System.out.println("Dead");
-    System.out.println("Dead");
-    System.out.println("Dead");
-    System.out.println("Dead");
-  }
 }

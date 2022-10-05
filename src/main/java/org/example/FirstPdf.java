@@ -21,6 +21,7 @@ public class FirstPdf {
       Font.BOLD);
 
   public static void main(String[] args) {
+    System.out.println("Generating PDF...");
     try {
       Document document = new Document();
       PdfWriter.getInstance(document, new FileOutputStream(FILE));

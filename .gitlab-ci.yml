@@ -1,12 +1,18 @@
 job1:
+  tags:
+    - local
   stage: build
   script:
     - echo "foo"
 job2:
+  tags:
+    - local
   stage: test
   script:
     - echo "bar"
 job3:
+  tags:
+    - local
   stage: deploy
   script:
     - echo "foobar"
